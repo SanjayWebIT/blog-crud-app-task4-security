@@ -18,7 +18,7 @@ A learning project with account registration/login, post CRUD, search, paginatio
 7. To make the first account an administrator, open phpMyAdmin → SQL and run the following after replacing the username:
 
    ```sql
-   UPDATE users SET role = 'admin' WHERE username = 'YOUR_USERNAME';
+   UPDATE users SET role = 'admin' WHERE username = 'sanjay';
    ```
 
 8. Log out and log in again. Administrators will see **Manage users** in the navigation.
